@@ -33,6 +33,7 @@ void binary_tree_print(const binary_tree_t *);
 
 //Function prototypes
 void binary_tree_delete(binary_tree_t *tree);
+int binary_tree_balance(const binary_tree_t *tree); 
 int binary_tree_is_root(const binary_tree_t *node);
 int binary_tree_is_leaf(const binary_tree_t *node);
 size_t binary_tree_depth(const binary_tree_t *tree);
