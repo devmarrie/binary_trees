@@ -1,6 +1,9 @@
 #include "binary_trees.h"
 
 /**
+ * Description: AVL tree is a self-balancing binary search tree 
+ *              in which each node maintains extra information 
+ *              called a balance factor whose value is either -1, 0 or +1.
  * binary_tree_rotate_left - performs a left-rotation on a binary tree
  * @tree: pointer to the root node of the tree to rotate
  *
